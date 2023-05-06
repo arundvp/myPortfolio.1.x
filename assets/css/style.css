@@ -6,18 +6,17 @@ html {
     
 
 header p {
-margin-top: auto;
-width: auto;
-color: #fff;
-font-size: x-large;
-font-family: 'Courier New', Courier, monospace;
-font-weight: 300;
-font-stretch: expanded;
-text-align: center;
-padding: 1rem 1rem;
-margin-bottom: 2px;
-} 
-
+    margin-top: auto;
+    width: auto;
+    color: #fff;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-stretch: expanded;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin-bottom: 2px;
+    } 
 
     #home .container{
     margin: auto 0px auto 2rem;
@@ -287,9 +286,9 @@ color: #fff;
     height: 8rem;
     }
     
-    .contact-content .column .contact-form .btn{
-    margin-left: .8rem;
-    }
+.contact-content .column .contact-form .btn{
+margin-left: .8rem;
+ }
 
  footer {
     text-align: center;
