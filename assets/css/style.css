@@ -1,15 +1,76 @@
-.heading {
-    text-shadow: 2px 2px 2px #1C6EA4;
+html {
+   background: radial-gradient(#246, #002);
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+    
+header h1.page-title {
+    width: 100%;
     text-align: center;
-    text-transform: capitalize;
-    text-decoration: solid;
-}
+    padding: 1rem 1rem;
+    font-size: 4.5rem;
+    color: #cee0eb;
+  }
+
+
+header p {
+margin-top: auto;
+width: auto;
+color: #fff;
+font-size: x-large;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 300;
+font-stretch: expanded;
+text-align: center;
+padding: 1rem 1rem;
+margin-bottom: 2px;
+} 
+
+footer {
+    margin: 1.5rem;
+    text-align: center;
+  }
+  
+    
+    #home .container{
+    margin: auto 0px auto 2rem;
+    }
+    
+    #home .home-content .text-1{
+    font-size: 29px;
+    margin: 1.2rem;
+    color: #d7d7e6;
+    }
+    
+    #home .home-content .text-2{
+    font-size: 65px;
+    font-weight: 500;
+    margin: 1rem;
+    color: #d7d7e6;
+    }
+    
+    #home .home-content .text-3{
+    font-size: 32px;
+    margin: 1.2rem;
+    color: #d7d7e6;
+    }
+    
+    #home .home-content .text-3 span{
+    color: #d7d7e6;
+    font-weight: 600;
+    }
+    
+    #home .btn{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    }
 
 #navbar{
     position: fixed;
+    top: 0;
     width: 100%;
-    padding: 1rem;
-    background: #7171dc;
+    z-index: 9999;
+    background: #7a7a92;
     }
     
 #navbar .container{
@@ -17,6 +78,8 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+    margin-right: 20px;
+    margin-left: 20px;
     }
     
 #navbar .container .logo a{
@@ -40,10 +103,104 @@
 color: #fff;
     }
 
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    /* Portfolio */
+.portfolio .container h2{
+   margin-top: .5rem;
+   color: #fff;
     }
+
+.container h2{
+    right: 20px;
+    color: #fff;
+    text-align: left;
+    margin-left: 2%;
+    }
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+   padding: .5rem;
+   color: #fff;
+     }
+    
+.project{
+   flex: 1;
+   padding: 1.5rem;
+   color: #fff;
+    }
+    
+.img-container img{
+    max-width: 450px;
+    }
+    
+.project-content{
+    max-width: 450px;
+    color: #fff;
+    }
+    
+.stack-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem;
+    margin-right: 1rem;
+    }
+  
+.stack-container li {
+    list-style: none;
+    }
+
+.stack-container li a {
+  color: #e5d5d5;
+  font-weight: 600;
+ }
+    
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.btn-container .btn {
+    color: #fff;
+}
+
+.btn-container .btn-2 {
+    color: #fff;
+}
+
+.skills {
+  margin-top: 150px;
+  color: #85badd;
+}
+
+.skills h2 {
+  margin: 0;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 5px;
+}
+
+.logo-item {
+    display: flex;
+    align-items: center;
+  }
+  
+.logo-item img {
+ width: 30px;
+ margin-right: 10px;
+ display: inline-block;
+ transition: transform 0.3s;
+ }
+
+ footer {
+    margin: 1.5rem;
+    text-align: center;
+    color: white;
+  }
