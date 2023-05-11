@@ -16,7 +16,7 @@ AS AN employer I WANT to view a potential employee's deployed portfolio of work 
 
 Created the GIT repository named myPortfolio.1.x
 
-Created a index.html with <meta name="viewport" content="width=device-width, initial-scale=1" />
+Created a index.html with meta name="viewport" content="width=device-width, initial-scale=1"
 
 To include a hyperlink (a link) on my portfolio page, used the HTML <a> tag with the nav section which has sections for Home, Work, About Me and Contact
 
