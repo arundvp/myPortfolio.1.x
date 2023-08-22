@@ -22,31 +22,36 @@ header p {
     margin-bottom: 2px;
     } 
 
-
-    #home .container{
-    margin: auto 0px auto 2rem;
+#home .container {
+    display: flex;
+    /* Align the child elements to the top of the parent */
+    align-items:; 
+    width: 90%;
+    margin: 1% auto;
+    margin-left: 3%;
+    flex: 0 0 60%;
     }
     
-    #home .home-content .text-1{
+    #home .home-content .text-1 {
     font-size: 29px;
     margin: 1.2rem;
     color: #d7d7e6;
     }
     
-    #home .home-content .text-2{
+    #home .home-content .text-2 {
     font-size: 65px;
     font-weight: 500;
     margin: 1rem;
     color: #d7d7e6;
     }
     
-    #home .home-content .text-3{
+    #home .home-content .text-3 {
     font-size: 32px;
     margin: 1.2rem;
     color: #d7d7e6;
     }
     
-    #home .home-content .text-3 span{
+    #home .home-content .text-3 span {
     color: #d7d7e6;
     font-weight: 600;
     }
@@ -56,15 +61,15 @@ header p {
     font-size: 1.5rem;
     }
 
-#navbar{
-    position: fixed;
+#navbar {
+    display: flex;
     top: 0;
     width: 100%;
     z-index: 9999;
     background: #7a7a92;
     }
     
-#navbar .container{
+#navbar .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,7 +78,7 @@ header p {
     margin-left: 20px;
     }
     
-#navbar .container .logo a{
+#navbar .container .logo a {
     color:#fff;
     }
     
@@ -82,7 +87,7 @@ header p {
     display: inline-block;
     }
     
-#navbar .menu li a{
+#navbar .menu li a {
     font-size: 18px;
     font-weight: 600;
     padding: 0.45rem;
@@ -90,32 +95,32 @@ header p {
     color: #c0c0c0;
     }
 
-#navbar .menu li a:hover{
+#navbar .menu li a:hover {
 color: #fff;
     }
 
     /* Work */
-.Work .container h2{
+.Work .container h2 {
    margin-top: .5rem;
    color: #fff;
     }
 
-.container h2{
+.container h2 {
     right: 20px;
     color: #fff;
     text-align: left;
     margin-left: 2%;
     }
 
-.projects{
+.projects {
     display: flex;
     flex-wrap: wrap;
     flex
-   padding: .5rem;
+   padding: 1.5rem;
    color: #fff;
      }
     
-.project{
+.project {
    flex: 1;
    padding: 1.5rem;
    color: #fff;
@@ -125,12 +130,12 @@ color: #fff;
     max-width: 200px;
     }
     
-.project-content{
+.project-content {
     max-width: 450px;
     color: #fff;
     }
     
-.stack-container{
+.stack-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -147,7 +152,7 @@ color: #fff;
   font-weight: 600;
  }
     
-.btn-container{
+.btn-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -264,7 +269,8 @@ color: #fff;
         height: 200px;
         width: 200px;
         margin-right: 10px;
-        display: inline-block;
+        width: 60%;
+        box-sizing: border-box;
  }
     
 /* Contact */
@@ -317,7 +323,7 @@ color: #fff;
     height: 8rem;
     }
     
-.contact-content .column .contact-form .btn{
+.contact-content .column .contact-form .btn {
 margin-left: .8rem;
  }
 
@@ -335,9 +341,13 @@ margin-left: .8rem;
     text-decoration: none;
     text-align: center;
   }
-  
-  
+
+  @media screen and (max-width: 768px) {
+    main,.navbar {
+      flex-direction: column;
+    }
+
  footer {
     text-align: center;
     color: white;
-  }
+ }
