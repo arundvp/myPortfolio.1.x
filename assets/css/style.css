@@ -346,8 +346,13 @@ margin-left: .8rem;
     main,.navbar {
       flex-direction: column;
     }
+}
 
  footer {
     text-align: center;
     color: white;
  }
+
+ .stack-container li a {
+    margin-right: 10px; /* adjust the value as per your requirement */
+}
